@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.topheader {
+  width: 100%;
+  background-color: #1f2937;
+  display: flex;
+
+  padding-inline: 15%;
+}
+
+.navbarContainer {
+  width: 50%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.navbarItem {
+  text-decoration: none;
+  color: white;
+}
