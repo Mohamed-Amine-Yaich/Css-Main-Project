@@ -183,6 +183,10 @@
 }
 .sign-up-left-side {
   color: #f9faf8;
+  flex: 2;
+}
+.sign-up-right-side {
+  flex: 1;
 }
 .signup-button {
   border: 3px solid #f9faf8;
