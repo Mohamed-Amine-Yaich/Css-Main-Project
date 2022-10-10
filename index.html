@@ -5,105 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>myWebsite</title>
+    <title>Courses4U.com</title>
   </head>
   <body>
-    <header class="topheader">
-      <a href="#" class="logo">
-        <figure>
-          <img src="./images/logo.jpg" width="50px" height="50px" />
-        </figure>
-      </a>
-      <nav class="navbarContainer">
+    <header class="header">
+      <a href="#" class="logo">Couses4U</a>
+      <nav class="navbar-container">
         <ul class="navbar">
-          <li><a class="navbarItem" href="#">States</a></li>
-          <li><a class="navbarItem" href="#">monument</a></li>
-          <li><a class="navbarItem" href="#">about</a></li>
+          <li><a class="navbar-item" href="#">Online Degrees</a></li>
+          <li><a class="navbar-item" href="#">Goals</a></li>
+          <li><a class="navbar-item" href="#">Subjects</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="topSection">
-        <section class="leftSection">
-          <h1 class="leftSectionTitle">My Country</h1>
-          <p class="leftSectionText">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            odit animi pariatur quibusdam rerum suscipit voluptatem! Fuga a
-            itaque autem?
+      <section class="hero-section">
+        <aside aria-label="hero-aside" class="left-side">
+          <h1 class="left-side-title">The next era of business thrives on learning</h1>
+          <p class="left-side-text">
+            We’re the integrated learning solution that delivers impactful programs for everyone.
           </p>
-          <button class="leftSectionButton">Sign up</button>
-        </section>
-
-        <figure class="rightSection">
+          <button class="sign-up-button">sign up</button>
+        </aside>
+        <figure class="right-side">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"
-            width="100%"
-            height="100%"
-            class="rightSectionImg"
+            src="./images/heroimg.jpg"
+            alt="hero image  : "
+            class="right-side-img"
           />
         </figure>
       </section>
-      <section>
-        <h2>Some random information</h2>
-        <ul>
+      <section class="information-section">
+        <h2 class="information-title">top selled courses</h2>
+        <ul class="all-img-container">
           <li>
-            <figure>
+            <figure class="img-container">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"
-                width="100px"
-                height="100px"
+                src="./images/coursespringboot.jpg"
+                alt="Course Picture  : Spring Boot Tutorial | Full Course 2022 "    
+                class="second-section-img"
               />
-              <figcaption></figcaption>
+              <figcaption><p class="fig-caption">Spring Boot Tutorial | Full Course 2022<cite class="course-author"> Nelson</cite></p></figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="img-container">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"
-                width="100px"
-                height="100px"
+                src="./images/nodejscourseByMaximilian.jpg"
+                alt="Course Picture : NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"               
+                class="second-section-img"
               />
-              <figcaption></figcaption>
+              <figcaption><p class="fig-caption">Master Node JS & Deno.js, build REST APIs with Node.js, GraphQL APIs, add Authentication, use MongoDB, SQL & much more!<cite class="course-author">Maximilian Schwarzmüller</cite></p></figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="img-container">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"
-                width="100px"
-                height="100px"
+                src="./images/ZTM.jpg"
+                alt="Course Picture : Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)"
+                class="second-section-img"
               />
-              <figcaption></figcaption>
+              <figcaption><p class="fig-caption">Updated! Become a Senior React Developer. Build a massive E-commerce app with Redux, Hooks, GraphQL, Stripe, Firebase<cite class="course-author">Andrei Neagoie,</br> Yihua Zhang</cite></p></figcaption>
+            </figure>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="img-container">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"
-                width="100px"
-                height="100px"
+                src="./images/angularZTM.jpg"
+                alt="Course Picture : Angular - The Complete Guide (2022 Edition)" 
+                class="second-section-img"
               />
-              <figcaption></figcaption>
+              <figcaption><p class="fig-caption">Master Angular 13 and build awesome, reactive web apps with the successor of Angular.js <cite class="course-author">Maximilian Schwarzmüller</cite></p></figcaption>
+            </figure>
             </figure>
           </li>
         </ul>
       </section>
-      <article>
-        <blockquote>
-          enna ettariikh fi nathiirihii la yziid ala al akhbaar w fi batini
-          nathron w tah9ii9
-          <cite>abderrahmen ibn khaldoun</cite>
+      <section class="quote-section">
+        <blockquote class="quote-block" cite="">
+          <q class="quote-text">An investment in knowledge pays the best interest.
+          </q>
+          <cite class="quote-author"><h3>-Benjamin Franklin</h3></cite>
         </blockquote>
-      </article>
-      <section>
-        <section>
-          <h5>Call to action it's time!</h5>
-          <p>sign up for our product clicking that button right ovzer there!</p>
-        </section>
-        <button>Sign up</button>
+      </section>
+      <section class="signup-section">
+        <aside aria-label="signup-leftside" class="left-side sign-up-left-side">
+          <h4>Sign up now!!</h4>
+          <p>
+            Sign up for an account by clicking that button right over there!
+          </p>
+        </aside>
+        <aside
+          aria-label="signup-rightside"
+          class="right-side sign-up-right-side"
+        >
+          <button class="sign-up-button signup-button">Sign up</button>
+        </aside>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p>copyright <span>&copy;</span></p>
     </footer>
   </body>
