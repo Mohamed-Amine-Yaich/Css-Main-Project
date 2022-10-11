@@ -1,11 +1,20 @@
+:root {
+  --hero-bg-color: #1f2937;
+  --quote-bg-color: #8f96a0;
+  --main-title-text-color: #f9faf8;
+  --main-text-color: #e5e7eb;
+  --bluesh-color: #3882f6;
+  --font-family: "Roboto", sans-serif;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
 }
 .header {
   width: 100%;
-  background-color: #1f2937;
+  background-color: var(--hero-bg-color);
   display: flex;
   padding-inline: 15%;
   justify-content: space-between;
@@ -13,7 +22,7 @@
 }
 .logo {
   text-decoration: none;
-  color: #f9faf8;
+  color: var(--main-title-text-color);
   font-style: italic;
   font-family: "Brush Script MT", Times, sans-serif;
   font-size: xxx-large;
@@ -50,14 +59,14 @@
 .navbar-item {
   text-transform: capitalize;
   text-decoration: none;
-  color: white;
+  color: var(--main-text-color);
 }
 .navbar-item:hover {
   opacity: 50%;
 }
 /* hero section */
 .hero-section {
-  background-color: #1f2937;
+  background-color: var(--hero-bg-color);
   display: flex;
   flex-wrap: wrap;
   padding: 5% 5%;
@@ -71,23 +80,20 @@
   gap: 30px;
 }
 .left-side-title {
-  font-family: "Roboto", Times, serif;
   font-size: 48px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #f9faf8;
+  color: var(--main-title-text-color);
 }
 .left-side-text {
-  font-family: "Roboto", serif;
-  color: #e5e7eb;
+  color: var(--main-text-color);
   font-size: 18px;
 }
 .sign-up-button {
-  font-family: "Roboto", serif;
   text-transform: capitalize;
   padding: 7px 25px;
-  color: white;
-  background-color: #3882f6;
+  color: var(--main-text-color);
+  background-color: var(--bluesh-color);
   border-radius: 5px;
   width: fit-content;
   border: none;
@@ -134,7 +140,7 @@
   transform: scale(1.1);
   transition: 1s;
 }
-.second-section-img {
+.information-section-img {
   /* border: 3px solid #3882f6; */
   border-radius: 10px;
   width: 100%;
@@ -142,7 +148,7 @@
 }
 
 .fig-caption {
-  color: #8f96a0;
+  color: var(--quote-bg-color);
   text-align: start;
   display: flex;
   flex-direction: column;
@@ -153,14 +159,14 @@
 /* quote section */
 
 .quote-block {
-  background-color: #e5e7eb;
+  background-color: var(--main-text-color);
   padding: 10% 20%;
 }
 .quote-text {
   font-style: italic;
   font-size: 36px;
   font-weight: 100;
-  color: #1f2937;
+  color: var(--hero-bg-color);
 }
 .quote-author {
   font-style: normal;
@@ -170,7 +176,7 @@
 }
 /* signup section */
 .signup-section {
-  background-color: #3882f6;
+  background-color: var(--bluesh-color);
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -179,17 +185,19 @@
   display: flex;
   padding-inline: 15%;
   justify-content: space-between;
-  color: #f9faf8;
 }
 .sign-up-left-side {
-  color: #f9faf8;
+  color: var(--main-title-text-color);
   flex: 2;
+}
+.signup-section-text {
+  color: var(--main-text-color);
 }
 .sign-up-right-side {
   flex: 1;
 }
 .signup-button {
-  border: 3px solid #f9faf8;
+  border: 3px solid var(--main-title-text-color);
 }
 .signup-button:hover {
   cursor: pointer;
@@ -197,9 +205,9 @@
 }
 /* footer */
 .footer {
-  background-color: #1f2937;
+  background-color: var(--hero-bg-color);
   text-align: center;
-  color: #f9faf8;
+  color: var(--main-title-text-color);
   padding: 3%;
   text-transform: capitalize;
 }
